@@ -6,7 +6,7 @@ async function main() {
     books.forEach(renderBook)
 }
 
-function renderBook(book) {
+async function renderBook(book) {
     let bookContainer = document.querySelector('.book-container')
     bookContainer.innerHTML += `
         <div class="col-sm-3">
